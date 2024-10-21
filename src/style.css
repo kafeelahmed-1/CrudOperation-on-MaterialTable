@@ -1,0 +1,47 @@
+/* styles.css */
+.tableContainer {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Light background for the container */
+  }
+  
+  .dataGrid {
+    border-radius: 8px;
+    overflow: hidden; /* To avoid sharp edges */
+  }
+  
+  .dataGrid .MuiDataGrid-root {
+    border: none; /* Remove default border */
+  }
+  
+  .dataGrid .MuiDataGrid-columnHeaders {
+    background-color: #1976d2; /* Header background color */
+    color: #ffffff; /* Header text color */
+  }
+  
+  .dataGrid .MuiDataGrid-cell {
+    border-bottom: 1px solid #ddd; /* Subtle border between rows */
+  }
+  
+  .dataGrid .MuiDataGrid-row:hover {
+    background-color: rgba(25, 118, 210, 0.1); /* Hover effect for rows */
+  }
+  
+  .dataGrid .MuiDataGrid-cell:focus {
+    outline: none; /* Remove default outline on focus */
+  }
+  
+  .addButton {
+    background-color: #4caf50; /* Add button background color */
+    color: white; /* Add button text color */
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  .addButton:hover {
+    background-color: #45a049; /* Darker shade on hover */
+  }
+  
